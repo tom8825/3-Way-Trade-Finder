@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=trade
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ trade\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=trade()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ trade\r\n
+comment2.params=a
+comment2.target=void\ findTrade(person)
+comment2.text=\r\n\ \r\n
+comment3.params=
+comment3.target=void\ testMethod()
+comment3.text=\r\n\r\n
+comment4.params=
+comment4.target=void\ randomDataGen()
+comment4.text=\r\n\ \r\n
+numComments=5
