@@ -5,7 +5,7 @@ import java.util.*;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class trade
+public class Trade
 {
     // instance variables - replace the example below with your own
     ArrayList<person> people = new ArrayList<person>();
@@ -48,7 +48,7 @@ public class trade
      */
     public void testMethod()
     {
-        randomDataGen();
+        generateRandomData();
         
         for (person b : people){
             findTrade(b);
@@ -58,7 +58,7 @@ public class trade
     /**
      * 
      */
-    public void randomDataGen()
+    public void generateRandomData()
     {
         for(int i=1; i<100; i++)
         {
