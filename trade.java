@@ -13,7 +13,7 @@ public class Trade
     /**
      * Constructor for objects of class trade
      */
-    public trade()
+    public Trade()
     {
         // initialise instance variables
         
@@ -23,7 +23,10 @@ public class Trade
     /**
      * 
      */
-    public void findTrade(person a)
+    // Don't be afraid of using longer names as long as it describes the exact task, though don't go too crazy
+    // Something like   InitAnimalSizeSelecter() - Not bad, but it's a bit extra  selectAnimalSize() - better
+    // If animal is common in your program you can even selectAniSize() or selectAniLen           Len - Length
+    public void LocateTradeSequence(person a)
     {
         for (person b : people){
             if(!b.equals(a)){
