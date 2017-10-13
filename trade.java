@@ -5,7 +5,7 @@ import java.util.*;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class trade
+public class Trade
 {
     // instance variables - replace the example below with your own
     ArrayList<person> people = new ArrayList<person>();
@@ -13,7 +13,7 @@ public class trade
     /**
      * Constructor for objects of class trade
      */
-    public trade()
+    public Trade()
     {
         // initialise instance variables
         
@@ -23,7 +23,10 @@ public class trade
     /**
      * 
      */
-    public void findTrade(person a)
+    // Don't be afraid of using longer names as long as it describes the exact task, though don't go too crazy
+    // Something like   InitAnimalSizeSelecter() - Not bad, but it's a bit extra  selectAnimalSize() - better
+    // If animal is common in your program you can even selectAniSize() or selectAniLen           Len - Length
+    public void LocateTradeSequence(person a)
     {
         for (person b : people){
             if(!b.equals(a)){
@@ -48,7 +51,7 @@ public class trade
      */
     public void testMethod()
     {
-        randomDataGen();
+        generateRandomData();
         
         for (person b : people){
             findTrade(b);
@@ -58,7 +61,7 @@ public class trade
     /**
      * 
      */
-    public void randomDataGen()
+    public void generateRandomData()
     {
         for(int i=1; i<100; i++)
         {
