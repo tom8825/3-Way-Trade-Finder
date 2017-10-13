@@ -5,9 +5,12 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class person
+public class Person
 {
     // instance variables - replace the example below with your own
+    // Need better descriptors, what is a have, what is a need ? 
+    // could we come up with a better name, if you read this 5 years from now, you may forget what trade they have
+    // names like currentTrade or tradeNeeded|| just a random names off the top of my head, think of better ones
     int have;
     int need;
     String name;
@@ -18,9 +21,9 @@ public class person
     public person(String personName, int a, int b)
     {
         // initialise instance variables
-        name = personName;
-        have = a;
-        need = b;
+        this.name = personName;
+        this.have = a;
+        this.need = b;
     }
     
     /**
@@ -28,7 +31,7 @@ public class person
      */
     public String getName()
     {
-        return name;
+        return this.name;
     }
     
     /**
@@ -36,7 +39,7 @@ public class person
      */
     public void setName(String n)
     {
-        name = n;
+        this.name = n;
     }
 
     /**
@@ -44,7 +47,7 @@ public class person
      */
     public int getHave()
     {
-        return have;
+        return this.have;
     }
     
     /**
@@ -52,26 +55,26 @@ public class person
      */
     public int getNeed()
     {
-        return need;
+        return this.need;
     }
     
     /**
      * 
      */
-    public void setHave(int i)
+    public void setHave(int h)
     {
-        have = i;
+        this.have = h;
     }
     
     /**
      * 
      */
-    public void setNeed(int i)
+    public void setNeed(int n)
     {
-        need = i;
+        this.need = n;
     }
     
     public String toString() {
-        return "Name: " + name + " Have: " + have + " Need: " + need;
+        return "Name: " + this.name + " Have: " + this.have + " Need: " + this.need;
     }
 }
